@@ -1,0 +1,50 @@
+% start S
+
+S -> WH-QUERY[SEM=?wh] FLIGHT-NP[SEM=?np] FLIGHT-VP[SEM=?vp]
+
+FLIGHT-NP[SEM=?cnp] -> FLIGHT-CNP[SEM=?cnp]
+
+FLIGHT-NP[SEM=<?d(?fc)>] -> DET[SEM=?d] FLIGHT-CNP[SEM=?fc]
+
+FLIGHT-CNP[SEM=?fn] -> FLIGHT-N[SEM=?fn]
+
+FLIGHT-CNP[SEM=<\f.(?fc(f)) & ?fd>] -> FLIGHT-CNP[SEM=?fc] FLIGHT-DEST[SEM=?fd]
+
+FLIGHT-TIME[SEM=<NAME(?tm)>] -> P-TIME TIME-MOD[SEM=?tm]
+
+FLIGHT-VP[SEM=<?fv(?ft)>] -> FLIGHT-V[SEM=?fv] FLIGHT-TIME[SEM=?ft]
+
+FLIGHT-VP[SEM=<?fv(t)>] -> FLIGHT-V[SEM=?fv]
+
+FLIGHT-DEST[SEM=<DEST(?cn)>] -> 'to' CITY-NP[SEM=?cn] | 'for' CITY-NP[SEM=?cn]
+
+CITY-NP[SEM=<NAME(?cn)>] -> CITY-NAME[SEM=?cn] CITY-N[SEM=?c]
+
+CITY-NP[SEM=<\c.?d(?c)>] -> DET[SEM=?d]  CITY-N[SEM=?c]
+
+WH-QUERY[SEM=<\x.WH_QUERY(x)>] -> 'which' | 'when does' | 'what time does'
+
+P-TIME -> 'at' | 'on' | 'in'
+
+CITY-NAME[SEM=<HUE>] -> 'Huế'
+
+CITY-NAME[SEM=<HCMC>] -> 'Hồ Chí Minh'
+
+CITY-N[SEM=<CITY>] -> 'city'
+
+DET[SEM=<THE>] -> 'the'
+
+FLIGHT-N[SEM=<\f.FLIGHT(f)>] -> 'flight'
+
+FLIGHT-V[SEM=<\a.ARRIVE(a)>] -> 'arrives' | 'arrive'
+
+FLIGHT-V[SEM=<\l.LEAVE(l)>] -> 'leaves' | 'leave'
+
+TIME-MOD[SEM=<20:00HR>] -> '20:00HR'
+TIME-MOD[SEM=<16:00HR>] -> '16:00HR'
+TIME-MOD[SEM=<10:00HR>] -> '10:00HR'
+TIME-MOD[SEM=<17:00HR>] -> '17:00HR'
+TIME-MOD[SEM=<15:00HR>] -> '15:00HR'
+TIME-MOD[SEM=<14:30HR>] -> '14:30HR'
+TIME-MOD[SEM=<18:30HR>] -> '18:30HR'
+TIME-MOD[SEM=<8:30HR>] -> '8:30HR'

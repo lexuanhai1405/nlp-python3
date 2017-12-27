@@ -1,0 +1,134 @@
+(S
+  (WH-QUERY which)
+  (FLIGHT-NP
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-DEST
+        to
+        (CITY-NP
+          (CITY-NAME Huế)
+          (CITY-N city)))))
+  (FLIGHT-VP
+    (FLIGHT-V leaves)
+    (FLIGHT-TIME
+      (P-TIME at)
+      (TIME-MOD 14:30HR))))
+
+====================================
+
+(S
+  (WH-QUERY what time does)
+  (FLIGHT-NP
+    (DET the)
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-DEST
+        to
+        (CITY-NP
+          (CITY-NAME Huế)
+          (CITY-N city)))))
+  (FLIGHT-VP (FLIGHT-V arrive)))
+
+====================================
+
+(S
+  (WH-QUERY when does)
+  (FLIGHT-NP
+    (DET the)
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-DEST
+        to
+        (CITY-NP
+          (CITY-NAME Hồ Chí Minh)
+          (CITY-N city)))))
+  (FLIGHT-VP (FLIGHT-V leave)))
+
+====================================
+
+(S
+  (WH-QUERY which)
+  (FLIGHT-NP
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-DEST
+        to
+        (CITY-NP
+          (CITY-NAME Huế)
+          (CITY-N city)))))
+  (FLIGHT-VP (FLIGHT-V leaves)))
+
+====================================
+
+(S
+  (WH-QUERY which)
+  (FLIGHT-NP
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-DEST
+        to
+        (CITY-NP
+          (DET the)
+          (CITY-N city)))))
+  (FLIGHT-VP (FLIGHT-V leaves)))
+
+====================================
+
+(S
+  (WH-QUERY when does)
+  (FLIGHT-NP
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-DEST
+        to
+        (CITY-NP
+          (DET the)
+          (CITY-N city)))))
+  (FLIGHT-VP (FLIGHT-V arrives)))
+
+====================================
+
+(S
+  (WH-QUERY when does)
+  (FLIGHT-NP
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-DEST
+        to
+        (CITY-NP
+          (DET the)
+          (CITY-N city)))))
+  (FLIGHT-VP
+    (FLIGHT-V arrives)
+    (FLIGHT-TIME
+      (P-TIME at)
+      (TIME-MOD 10:00HR))))
+
+====================================
+
+(S
+  (WH-QUERY which)
+  (FLIGHT-NP
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-DEST
+        to
+        (CITY-NP
+          (DET the)
+          (CITY-N city)))))
+  (FLIGHT-VP
+    (FLIGHT-V leaves)
+    (FLIGHT-TIME
+      (P-TIME at)
+      (TIME-MOD 14:30HR))))
+
+====================================
+

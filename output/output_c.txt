@@ -1,0 +1,32 @@
+WH_QUERY f: ((FLIGHT(f) & DEST(NAME(HUE))),LEAVE(NAME(14:30HR)))
+
+====================================
+
+WH_QUERY t: (THE((FLIGHT(f) & DEST(NAME(HUE)))),ARRIVE(t))
+
+====================================
+
+WH_QUERY t: (THE((FLIGHT(f) & DEST(NAME(HCMC)))),LEAVE(t))
+
+====================================
+
+WH_QUERY f: ((FLIGHT(f) & DEST(NAME(HUE))),LEAVE(t))
+
+====================================
+
+WH_QUERY f: ((FLIGHT(f) & DEST(\c.THE(CITY))),LEAVE(t))
+
+====================================
+
+WH_QUERY t: ((FLIGHT(f) & DEST(\c.THE(CITY))),ARRIVE(t))
+
+====================================
+
+WH_QUERY t: ((FLIGHT(f) & DEST(\c.THE(CITY))),ARRIVE(NAME(10:00HR)))
+
+====================================
+
+WH_QUERY f: ((FLIGHT(f) & DEST(\c.THE(CITY))),LEAVE(NAME(14:30HR)))
+
+====================================
+
