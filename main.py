@@ -16,6 +16,9 @@ files = glob.glob('output/*')
 for f in files: 
 	os.remove(f)
 
+output = open('output/output_a.txt', 'a')
+output.write('Not ouput!!!')
+
 # Read input
 questions = open('input.txt', 'r').readlines()
 
