@@ -2,7 +2,7 @@ PRINT-ALL ?f (FLIGHT ?f) (ATIME ?f HUE ?at) (DTIME ?f ?dc 14:30HR)
 
 ====================================
 
-PRINT-ALL ?at (FLIGHT ?f) (ATIME ?f HUE ?at) (DTIME ?f ?dc ?dt)
+PRINT-ALL ?at (FLIGHT ?f) (ATIME ?f HUE ?at)
 
 ====================================
 
@@ -18,15 +18,19 @@ PRINT-ALL ?f (FLIGHT ?f) (ATIME ?f ?ac ?at) (DTIME ?f ?dc ?dt)
 
 ====================================
 
-PRINT-ALL ?at (FLIGHT ?f) (ATIME ?f ?ac ?at) (DTIME ?f ?dc ?dt)
+PRINT-ALL ?at (FLIGHT ?f) (ATIME ?f ?ac ?at)
 
 ====================================
 
-PRINT-ALL ?at (FLIGHT ?f) (ATIME ?f ?ac 10:00HR) (DTIME ?f ?dc ?dt)
+PRINT-ALL ?at (FLIGHT ?f) (ATIME ?f ?ac 10:00HR)
 
 ====================================
 
 PRINT-ALL ?f (FLIGHT ?f) (ATIME ?f ?ac ?at) (DTIME ?f ?dc 14:30HR)
+
+====================================
+
+PRINT-ALL ?f (FLIGHT ?f) (DTIME ?f ?dc ?dt)
 
 ====================================
 

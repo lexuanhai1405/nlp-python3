@@ -3,6 +3,7 @@ what time does the flight to Huế city arrive ?
 when does the flight to Hồ Chí Minh city leave ?
 which flight to Huế city leaves?
 which flight to the city leaves?
-when does flight to the city arrives ?
-when does flight to the city arrives at 10:00HR ?
+when does flight to the city arrive ?
+when does flight to the city arrive at 10:00HR ?
 which flight to the city leaves at 14:30HR?
+which flight from the city leaves at 14:30HR?

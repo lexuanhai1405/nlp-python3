@@ -30,3 +30,7 @@ WH_QUERY f: ((FLIGHT(f) & DEST(\c.THE(CITY))),LEAVE(NAME(14:30HR)))
 
 ====================================
 
+WH_QUERY f: ((FLIGHT(f) & SOURCE(\c.THE(CITY))),LEAVE(NAME(14:30HR)))
+
+====================================
+

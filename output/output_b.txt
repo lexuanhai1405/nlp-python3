@@ -90,7 +90,7 @@
         (CITY-NP
           (DET the)
           (CITY-N city)))))
-  (FLIGHT-VP (FLIGHT-V arrives)))
+  (FLIGHT-VP (FLIGHT-V arrive)))
 
 ====================================
 
@@ -106,7 +106,7 @@
           (DET the)
           (CITY-N city)))))
   (FLIGHT-VP
-    (FLIGHT-V arrives)
+    (FLIGHT-V arrive)
     (FLIGHT-TIME
       (P-TIME at)
       (TIME-MOD 10:00HR))))
@@ -121,6 +121,25 @@
         (FLIGHT-N flight))
       (FLIGHT-DEST
         to
+        (CITY-NP
+          (DET the)
+          (CITY-N city)))))
+  (FLIGHT-VP
+    (FLIGHT-V leaves)
+    (FLIGHT-TIME
+      (P-TIME at)
+      (TIME-MOD 14:30HR))))
+
+====================================
+
+(S
+  (WH-QUERY which)
+  (FLIGHT-NP
+    (FLIGHT-CNP
+      (FLIGHT-CNP
+        (FLIGHT-N flight))
+      (FLIGHT-SOURCE
+        from
         (CITY-NP
           (DET the)
           (CITY-N city)))))
